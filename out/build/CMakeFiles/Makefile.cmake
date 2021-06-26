@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../../Adder/CMakeLists.txt"
   "../../CMakeLists.txt"
+  "../../OLASConfig.h.in"
   "../../external/glfw/CMake/cmake_uninstall.cmake.in"
   "../../external/glfw/CMake/glfw3.pc.in"
   "../../external/glfw/CMake/glfw3Config.cmake.in"
@@ -65,6 +66,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "OLASConfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Adder/CMakeFiles/CMakeDirectoryInformation.cmake"
   "external/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"

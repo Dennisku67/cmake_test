@@ -4,4 +4,5 @@
 CMakeFiles/OLAS.dir/main.cpp.o: ../../Adder/adder.h
 CMakeFiles/OLAS.dir/main.cpp.o: ../../external/glfw/include/GLFW/glfw3.h
 CMakeFiles/OLAS.dir/main.cpp.o: ../../main.cpp
+CMakeFiles/OLAS.dir/main.cpp.o: OLASConfig.h
 
