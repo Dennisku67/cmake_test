@@ -296,6 +296,12 @@ Fontconfig_INCLUDE_DIR:PATH=/usr/include
 //Path to a library.
 Fontconfig_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libfontconfig.so
 
+//Git command line client
+GIT_EXECUTABLE:FILEPATH=/usr/bin/git
+
+//Check submodules during build
+GIT_SUBMODULE:BOOL=ON
+
 //Value Computed by CMake
 GLFW_BINARY_DIR:STATIC=/home/pi/Develop/cmake_test/out/build/external/glfw
 
@@ -746,6 +752,8 @@ FREETYPE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Fontconfig_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Fontconfig_LIBRARY
 Fontconfig_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GIT_EXECUTABLE
+GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MATH_LIBRARY
 MATH_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
