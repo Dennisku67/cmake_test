@@ -1,0 +1,1 @@
+/usr/bin/g++-8  -g   CMakeFiles/OLAS.dir/main.cpp.o  -o OLAS   -L/home/pi/Develop/cmake_test/Adder  -L/home/pi/Develop/cmake_test/external/glfw/src  -Wl,-rpath,/home/pi/Develop/cmake_test/Adder:/home/pi/Develop/cmake_test/external/glfw/src Adder/libadder.a external/glfw/src/libglfw3.a -lpthread /usr/lib/aarch64-linux-gnu/librt.so /usr/lib/aarch64-linux-gnu/libm.so -ldl 

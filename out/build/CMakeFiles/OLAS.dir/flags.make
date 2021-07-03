@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pi/Develop/cmake_test/out/build -I/home/pi/Develop/cmake_test/Adder -I/home/pi/Develop/cmake_test/external/glfw/include 
+CXX_INCLUDES = -I/home/pi/Develop/cmake_test/out/build -I/home/pi/Develop/cmake_test/external/glfw/include -I/home/pi/Develop/cmake_test/Adder 
 

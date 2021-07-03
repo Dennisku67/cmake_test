@@ -350,6 +350,9 @@ Project_SOURCE_DIR:STATIC=/home/pi/Develop/cmake_test
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/librt.so
 
+//A simple library for adding 2 floats.
+USE_ADDER:BOOL=ON
+
 //Path to a file.
 X11_ICE_INCLUDE_PATH:PATH=/usr/include
 
